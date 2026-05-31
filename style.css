@@ -24,6 +24,10 @@ body {
     margin: 15px auto 25px auto;
     max-width: 800px;
 }
+.indented-paragraph {
+    margin-left: 15%;
+    margin-right: 15%;
+}
 .content h1 {
     text-align: center;
 }
