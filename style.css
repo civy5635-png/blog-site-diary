@@ -16,7 +16,7 @@ body {
   height: auto;
   display: block;
 }
-.content h2 {
+.content h1 {
     text-align: center;
 }
 
@@ -65,12 +65,36 @@ body {
   margin-top: 28px;
 }
 
-.sidebar-decoration {
-  margin-top: 50px;
-  text-align: center;
-  color: #9ffcf3;
-  font-size: 2rem;
-  letter-spacing: 8px;
+.sidebar-art {
+    margin-top: 45px;
+    min-height: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.sidebar-art svg {
+    width: 100%;
+    max-width: 230px;
+    height: auto;
+}
+
+.sidebar-art path {
+    stroke: #9ffcf3;
+    stroke-width: 3;
+    stroke-linecap: round;
+    opacity: 0.75;
+}
+
+.sidebar-art circle {
+    fill: #9ffcf3;
+    opacity: 0.85;
+}
+
+.sidebar-art text {
+    fill: #9ffcf3;
+    font-size: 24px;
+    letter-spacing: 4px;
 }
 
 .content {
