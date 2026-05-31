@@ -116,9 +116,12 @@ footer {
     color: #ffffff;
     text-decoration: underline;
 }
-h2 {
-    color: #d4af37;
+
+.footer-heading {
+    color: #e6c15a;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.5);
 }
+
 /* Mobile layout */
 @media (max-width: 768px) {
   .page-layout {
