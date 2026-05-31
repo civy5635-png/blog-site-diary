@@ -99,21 +99,20 @@ footer {
 }
 
 .footer-links {
-  max-width: 700px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 12px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 .footer-links a {
-  color: #d8f7f3;
-  text-decoration: none;
+    color: #d4af37;
+    text-decoration: none;
+    font-size: 16px;
 }
 
 .footer-links a:hover {
-  color: #9ffcf3;
-  text-decoration: underline;
+    color: #ffffff;
+    text-decoration: underline;
 }
 
 /* Mobile layout */
