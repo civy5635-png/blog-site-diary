@@ -116,7 +116,9 @@ footer {
     color: #ffffff;
     text-decoration: underline;
 }
-
+h2 {
+    color: #d4af37;
+}
 /* Mobile layout */
 @media (max-width: 768px) {
   .page-layout {
