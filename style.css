@@ -27,9 +27,15 @@ body {
 
 .sidebar {
   width: 260px;
-  background: linear-gradient(#12343b, #0b1f26);
-  padding: 30px 22px;
-  border-right: 3px solid #55d6d2;
+    background:
+        linear-gradient(rgba(0, 32, 40, 0.25), rgba(0, 32, 40, 0.25)),
+        url("images/nav-decoration.png");
+    background-size: cover;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+
+    padding: 30px 22px;
+    border-right: 3px solid #55d6d2;
 }
 
 .sidebar h2 {
@@ -65,37 +71,6 @@ body {
   margin-top: 28px;
 }
 
-.sidebar-art {
-    margin-top: 45px;
-    min-height: 420px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-}
-
-.sidebar-art svg {
-    width: 100%;
-    max-width: 230px;
-    height: auto;
-}
-
-.sidebar-art path {
-    stroke: #9ffcf3;
-    stroke-width: 3;
-    stroke-linecap: round;
-    opacity: 0.75;
-}
-
-.sidebar-art circle {
-    fill: #9ffcf3;
-    opacity: 0.85;
-}
-
-.sidebar-art text {
-    fill: #9ffcf3;
-    font-size: 24px;
-    letter-spacing: 4px;
-}
 
 .content {
   flex: 1;
