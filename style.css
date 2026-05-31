@@ -20,9 +20,9 @@ body {
     text-align: center;
     font-style: italic;
     color: #9ffcf3;
-    font-size: 1rem;
-    margin: 10px 0;
-    letter-spacing: 1px;
+    font-size: 1.1rem;
+    margin: 15px auto 25px auto;
+    max-width: 800px;
 }
 .content h1 {
     text-align: center;
