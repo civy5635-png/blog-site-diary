@@ -16,6 +16,14 @@ body {
   height: auto;
   display: block;
 }
+.tagline {
+    text-align: center;
+    font-style: italic;
+    color: #9ffcf3;
+    font-size: 1rem;
+    margin: 10px 0;
+    letter-spacing: 1px;
+}
 .content h1 {
     text-align: center;
 }
