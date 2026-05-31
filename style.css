@@ -3,12 +3,14 @@
 }
 
 body {
-  margin: 0;
-  font-family: Georgia, serif;
-  background-color: #0b1f26;
-  color: #e8f7f5;
-}
+    margin: 0;
+    font-family: Georgia, serif;
+    font-size: 18px;
+    line-height: 1.6;
 
+    background-color: #0b1f26;
+    color: #e8f7f5;
+}
 .site-header img {
   width: 100%;
   height: auto;
@@ -129,4 +131,8 @@ footer {
     font-size: 1.4rem;
     margin: 30px 0;
     letter-spacing: 4px;
+}
+.indented-list {
+    margin-left: 2in;
+    margin-right: 2in;
 }
